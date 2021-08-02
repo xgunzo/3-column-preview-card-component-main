@@ -1,0 +1,120 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: sans-serif, "Lexend Deca";
+    font-weight: 400;
+    font-size: 15px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: sans-serif, "Big Shoulders Display";
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.wrapper {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    margin-top: 20%;
+    padding-bottom: 20%;
+}
+
+.menu h1 {
+    padding-top: 0.5em;
+}
+
+.menu p {
+    padding-top: 1em;
+    padding-right: 2em;
+}
+
+
+
+.list {
+    padding: 8em 3em;
+    padding-top: 3em;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0px 0px;
+    height: 14em;
+}
+
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    height: 14em;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    height: 14em;
+    border-radius: 0px 0px 10px 10px;
+}
+
+button {
+    border: 2px solid;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 0.5em;
+    width: 50%;
+    margin-top: 2em;
+}
+
+.sedans button {
+    color:hsl(31, 77%, 52%);
+}
+
+.sedans-button:hover {
+    background-color:hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border-color: hsla(0, 0%, 100%, 0.75);
+    weight: 400;
+}
+
+.suvs button {
+    color:hsl(184, 100%, 22%);
+}
+
+.suvs-button:hover {
+    background-color:hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border-color: hsla(0, 0%, 100%, 0.75);
+    weight: 400;
+}
+
+.luxury button {
+    color:hsl(179, 100%, 13%);
+}
+
+.luxury-button:hover {
+    background-color:hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border-color: hsla(0, 0%, 100%, 0.75);
+    weight: 400;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding-bottom: 15px;
+}
+
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+}
