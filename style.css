@@ -12,6 +12,7 @@ p {
     font-family: sans-serif, "Lexend Deca";
     font-weight: 400;
     font-size: 15px;
+    line-height: 1.7em;
 }
 
 h1 {
@@ -45,7 +46,7 @@ h1 {
 
 
 .list {
-    padding: 8em 3em;
+    padding: 10em 3em;
     padding-top: 3em;
 }
 
