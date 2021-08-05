@@ -119,3 +119,244 @@ button {
 .attribution a { 
         color: hsl(228, 45%, 44%); 
 }
+
+@media screen and (min-width: 1440px) {
+    .menu {
+        margin-top: 0%;
+        padding-top: 12%;
+        padding-bottom: 10%;
+        padding-left: 15%;
+        padding-right: 0;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+    .menu h1 {
+        padding-top: 1em;
+    }
+    
+    .menu p {
+        padding-top: 1.5em;
+        padding-right: 3em;
+    }
+    
+    .menu .list {
+        display: inline-block;
+        width: 18%;
+        height: 20em;
+    }
+    
+    .list {
+        padding: 10em 3em;
+        padding-top: 3em;
+        width: 100%;
+        float:left;
+        clear:none;  
+    }
+    
+    .sedans {
+        border-radius: 10px 0px 0px 10px;
+        height: 14em;
+    }
+    
+    
+    .suvs {
+        background-color: hsl(184, 100%, 22%);
+        height: 14em;
+    }
+    
+    .luxury {
+        background-color: hsl(179, 100%, 13%);
+        height: 14em;
+        border-radius: 0px 10px 10px 0px;
+    }
+    
+    button {
+        font-size: 15px;
+        padding: 1em;
+        width: 50%;
+        margin-top: 6em;
+    }
+    
+    .sedans button {
+        width: 9em;
+    }
+    
+    .suvs button {
+        width: 9em;
+    }
+    
+    .luxury button {
+        width: 9em;
+    }
+    
+    .attribution { 
+        margin-top: 45em;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .menu {
+        margin-top: 0%;
+        padding-top: 12%;
+        padding-bottom: 10%;
+        padding-left: 20%;
+        padding-right: 0;
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 860px) and (max-width: 1029px) {
+    
+    .menu {
+        margin-top: 0%;
+        padding-top: 12%;
+        padding-bottom: 10%;
+        padding-left: 6%;
+        padding-right: 0;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+    .menu h1 {
+        padding-top: 1em;
+    }
+    
+    .menu p {
+        padding-top: 1em;
+        padding-right: 1em;
+    }
+    
+    .menu .list {
+        display: inline-block;
+        width: 20%;
+        height: 20em;
+    }
+    
+    .list {
+        padding: 10em 3em;
+        padding-top: 3em;
+        width: 100%;
+        float:left;
+        clear:none;  
+    }
+    
+    .sedans {
+        border-radius: 10px 0px 0px 10px;
+        height: 14em;
+    }
+    
+    
+    .suvs {
+        background-color: hsl(184, 100%, 22%);
+        height: 14em;
+    }
+    
+    .luxury {
+        background-color: hsl(179, 100%, 13%);
+        height: 14em;
+        border-radius: 0px 10px 10px 0px;
+    }
+    
+    button {
+        font-size: 15px;
+        padding: 1em;
+        width: 50%;
+        margin-top: 4em;
+    }
+    
+    .sedans button {
+        width: 9em;
+    }
+    
+    .suvs button {
+        width: 9em;
+    }
+    
+    .luxury button {
+        width: 9em;
+    }
+    
+    .attribution { 
+        margin-top: 50em;
+    }
+}
+
+@media screen and (min-width: 1030px) and (max-width: 1439px) {
+    
+    .menu {
+        margin-top: 0%;
+        padding-top: 12%;
+        padding-bottom: 10%;
+        padding-left: 10%;
+        padding-right: 0;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+    .menu h1 {
+        padding-top: 1em;
+    }
+    
+    .menu p {
+        padding-top: 1em;
+        padding-right: 3em;
+    }
+    
+    .menu .list {
+        display: inline-block;
+        width: 20%;
+        height: 20em;
+    }
+    
+    .list {
+        padding: 10em 3em;
+        padding-top: 3em;
+        width: 100%;
+        float:left;
+        clear:none;  
+    }
+    
+    .sedans {
+        border-radius: 10px 0px 0px 10px;
+        height: 14em;
+    }
+    
+    
+    .suvs {
+        background-color: hsl(184, 100%, 22%);
+        height: 14em;
+    }
+    
+    .luxury {
+        background-color: hsl(179, 100%, 13%);
+        height: 14em;
+        border-radius: 0px 10px 10px 0px;
+    }
+    
+    button {
+        font-size: 15px;
+        padding: 1em;
+        width: 50%;
+        margin-top: 4em;
+    }
+    
+    .sedans button {
+        width: 9em;
+    }
+    
+    .suvs button {
+        width: 9em;
+    }
+    
+    .luxury button {
+        width: 9em;
+    }
+    
+    .attribution { 
+        margin-top: 45em;
+    }
+}
